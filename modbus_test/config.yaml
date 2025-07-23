@@ -1,0 +1,13 @@
+name: "Modbus Test"
+version: "1.0"
+slug: "modbus_test"
+description: "Addon pour tester la lecture du registre 3028 (float32)"
+startup: once
+boot: manual
+hassio_api: false
+hassio_role: default
+host_network: true
+devices:
+  - /dev/ttyUSB0
+options: {}
+schema: {}
